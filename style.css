@@ -197,7 +197,7 @@ span{
     content: "";
     background-color: var(--dark-blue);
     position: absolute;
-    width: calc(100% + 15px);
+    width: calc(100% + 10px);
     height: 100%;
     border-left: 3px solid var(--dark-blue);
     right: -8px;
@@ -237,7 +237,7 @@ span{
     25%, 40%,
     45%, 60%,
     65%, 80%, 85%{
-        width: calc(100% + 15px);
+        width: calc(100% + 10px);
     }
 }
 
@@ -312,7 +312,7 @@ span{
 }
 .skills .container .row{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     flex-wrap: wrap;
     gap:1.8rem;
 }
